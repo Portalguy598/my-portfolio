@@ -84,9 +84,30 @@ body {
   text-align: center;
 }
 
-
-.contact > p {
+.contact {
   text-align: center;
+}
+
+#contact-div {
+  background-color: #16213e;
+  color: #fff;
+  border-radius: 8px;
+  padding: auto;
+}
+
+#contact-div a {
+  color: orange;
+}
+
+#contact-div a:hover {
+  color: #e94560;
+}
+
+#about > p {
+  background-color: #16213e;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
 }
 
 .projects-grid {
@@ -107,6 +128,7 @@ body {
 
 .project-card:hover {
   box-shadow: 0 4px 12px rgba(240, 60, 100, 0.2);
+  cursor: pointer;
 }
 
 .project-card:hover > h3 {
@@ -120,6 +142,7 @@ body {
 
 .blog-post {
   border-left: 4px solid #0f3460;
+  border-right: 4px solid #0f3460;
   padding: 1rem 1.5rem;
   margin-top: 1.5rem;
   background: #f9f9f9;

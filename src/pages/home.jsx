@@ -57,14 +57,17 @@ function Home() {
           <ProjectCard
             title="CalPal"
             desc="A simple Java application that allows you to track your daily net calorie intake after factoring in food and exercises."
+            link="#"
           />
           <ProjectCard
             title="Aim Rivals"
             desc="A React app that allows players to compete in aiming games with others."
+            link="https://github.com/Portalguy598/CIS444_Aim_Rivals"
           />
           <ProjectCard
             title="My Portfolio"
             desc="A portfolio website (the very one you are looking at!)."
+            link="https://github.com/Portalguy598/my-portfolio"
           />
         </div>
       </section>
@@ -72,16 +75,23 @@ function Home() {
       {/* Contact Section */}
       <section id="contact" ref={contactRef} className="section contact">
         <h2>Contact</h2>
-        <p>Email: ryandmilner@gmail.com</p>
-        <p>GitHub: <a>github.com/Portalguy598</a></p>
+        <div id='contact-div'>
+          <p>Email: ryandmilner@gmail.com</p>
+          <p>GitHub: <a target='_blank' href='https://github.com/Portalguy598'>Portalguy598</a></p>
+        </div>
       </section>
     </main>
   );
 }
 
-function ProjectCard({ title, desc }) {
+function ProjectCard({ title, desc, link }) {
+  const handleCardClick = () =>{
+    if(link !== null && link !== '#'){
+      window.open(link);
+    }
+  }
   return (
-    <div className="project-card">
+    <div onClick={handleCardClick} className="project-card">
       <h3>{title}</h3>
       <p>{desc}</p>
     </div>
