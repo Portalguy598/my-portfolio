@@ -76,7 +76,7 @@ function Home() {
       <section id="contact" ref={contactRef} className="section contact">
         <h2>Contact</h2>
         <div id='contact-div'>
-          <p>Email: ryandmilner@gmail.com</p>
+          <p>Email: <a href='mailto:ryandmilner@gmail.com'>ryandmilner@gmail.com</a></p>
           <p>GitHub: <a target='_blank' href='https://github.com/Portalguy598'>Portalguy598</a></p>
         </div>
       </section>

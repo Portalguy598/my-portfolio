@@ -15,12 +15,14 @@ function Blog() {
 
   return (
     <main className="section">
-      <h2>My Blog</h2>
-      <p>
+      <div className='blog-top'>
+        <h2>My Blog</h2>
+        <p>
         Welcome to my blog! This is where I’ll document
         my spring break adventures.
-      </p>
-
+        </p>
+      </div>
+      
       <article className="blog-post">
         <h3>Spring Break 2026</h3>
         <p>It wasn't a highly eventful spring break, but I did get an opportunity to visit Knott's Berry Park!</p>
