@@ -1,5 +1,5 @@
 import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
-import Home from './pages/Home';
+import Home from './pages/home';
 import Blog from './pages/Blog';
 
 function App() {
