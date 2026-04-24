@@ -170,3 +170,14 @@ body {
   height: auto;
   border: 2px solid #0f3460;
 }
+
+/* below are adjustments made for smaller screens/mobile */
+@media screen and (max-width: 768px){
+  
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
