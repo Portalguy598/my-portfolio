@@ -46,6 +46,19 @@ function Blog() {
 
         </p>
       </article>
+
+      <article className="blog-post">
+        <h3>Post Spring Break 2026</h3>
+        <p>Placeholder</p>
+        <img src='#' alt=""></img>
+        <p>
+          Placeholder
+        </p>
+        <img src='#' alt=""></img>
+        <p>
+          Placeholder
+        </p>
+      </article>
     </main>
   );
 }

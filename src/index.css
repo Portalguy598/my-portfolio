@@ -8,7 +8,7 @@ body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
   line-height: 1.6;
   color: #333;
-  background-image: repeating-linear-gradient(45deg, #b7c9e2, #b7c9e2 8px, #fff 8px, #fff 16px);
+  background-image: linear-gradient(to right, #d7e9f9, #B7C9E2);
 }
 
 .navbar {
@@ -143,10 +143,9 @@ body {
 
 .blog-top {
   text-align: center;
-  background-color: #fff;
-  border-radius: 0 8px 8px 0;
-  border-left: 4px solid #0f3460;
-  border-right: 4px solid #0f3460;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 4px solid #0f3460;
 }
 
 .blog-post {
@@ -171,9 +170,9 @@ body {
   border: 2px solid #0f3460;
 }
 
-/* below are adjustments made for smaller screens/mobile */
+/* below adjustments made for smaller screens/mobile */
 @media screen and (max-width: 768px){
-  
+
   .nav-links {
     display: flex;
     flex-direction: column;
