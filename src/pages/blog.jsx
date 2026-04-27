@@ -1,5 +1,7 @@
 import supremeScream from '../assets/supreme_scream.jpeg';
 import xcelerator from '../assets/xcelerator.jpeg';
+import peacock from '../assets/peacock.jpeg';
+import building from '../assets/building.jpeg';
 
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -49,14 +51,20 @@ function Blog() {
 
       <article className="blog-post">
         <h3>Post Spring Break 2026</h3>
-        <p>Placeholder</p>
-        <img src='#' alt=""></img>
+        <p>To take a brief break as the end of the semester approaches, I decided to take a brief walk around the Leo Carrillo Ranch Historic Park</p>
+        <img src={building} alt="Hacienda building"></img>
         <p>
-          Placeholder
+          Old buildings made of Adobe, meant to resemble those found on early ranches, are present in a number of areas throughout the park.
+          The above building is part of the Hacienda, where Leo Carrillo's family stayed when visiting the ranch.
+          There are signs throughout the park that contain historical information about the buildings and plant life.
+          The area is nice and quiet... for the most part. 
         </p>
-        <img src='#' alt=""></img>
+        <img src={peacock} alt="Peacock on building"></img>
         <p>
-          Placeholder
+          Notably, peafowl, like the peacock above, like to hang around this area. They are quiet loud in both the audio sense and the visual sense.
+          <br /> <br />
+          Aside from reading the signs and looking at the sights, I spent my time walking down some of the trails to unwind. If you ever happen to be nearby,
+          it wouldn't be a bad idea to check out the park and relax.
         </p>
       </article>
     </main>
